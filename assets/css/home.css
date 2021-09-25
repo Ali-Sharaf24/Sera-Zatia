@@ -1,0 +1,556 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: "Cairo", sans-serif;
+}
+body li,
+body ul {
+  list-style: none;
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+}
+body a {
+  text-decoration: none;
+  padding: 0px;
+}
+body a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.home {
+  /*-------------------------nav-bar-end------------------------------*/
+  /*-------------------------header-start------------------------------*/
+  /*-------------------------header-end------------------------------*/
+  /*-------------------------services-start------------------------------*/
+  /*----------------------services-end------------------------------*/
+  /*-------------------------sections-start------------------------------*/
+  /*-------------------------sections-end------------------------------*/
+  /*-------------------------jobs-start------------------------------*/
+  /*-------------------------jobs-end------------------------------*/
+  /*-------------------------footer-start------------------------------*/
+  /*-------------------------footer-end------------------------------*/
+}
+.home #navbar {
+  padding: 20px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  transition: 0.4s;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+}
+.home #navbar .navbar button {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.home #navbar .navbar .navbar-brand {
+  color: #1ed5b7;
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 40px;
+}
+.home #navbar .navbar button:hover {
+  background-color: #1ed5b7;
+}
+.home #navbar .navbar button:active {
+  background-color: #1ed5b7;
+}
+.home #navbar .navbar button:focus {
+  outline: 0px;
+}
+.home #navbar .navbar .navbar-nav {
+  margin: auto;
+}
+.home #navbar .navbar .navbar-nav .nav-item .act {
+  border-bottom: 1px solid;
+}
+.home #navbar .navbar .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  padding-right: 20px;
+  padding-left: 20px;
+  transition: all 0.3s linear;
+}
+.home #navbar .navbar .navbar-nav .nav-item .nav-link:hover {
+  background-color: #1ed5b7;
+  color: #fff;
+}
+.home .header-home {
+  height: 800px;
+  position: relative;
+}
+.home .header-home .loon {
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.home .header-home .carousel img {
+  height: 800px;
+}
+.home .search {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  background-color: rgba(30, 213, 183, 0.1);
+  position: absolute;
+  z-index: 5;
+  width: 75%;
+  transform: translate(-190px, -430px);
+  border-radius: 25px;
+  text-align: center;
+}
+.home .search .search-title {
+  padding-bottom: 20px;
+}
+.home .search .search-title h3 {
+  color: #fff;
+}
+.home .search .search-title span {
+  color: #fff;
+}
+.home .search form .form-row button {
+  width: 100%;
+  background-color: #1ed5b7;
+  border: 1px solid #1ed5b7;
+}
+.home .search form .form-row button:hover {
+  color: #fff;
+  background-color: rgba(30, 213, 183, 0.3);
+}
+.home .search form .form-row .form-control {
+  padding: 0px;
+}
+.home .search form .form-row input {
+  text-indent: 5px;
+}
+.home .services {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #343b43;
+}
+.home .services .secrvices-title {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.home .services .secrvices-title h2 {
+  color: #1ed5b7;
+}
+.home .services .secrvices-title span {
+  color: #999999;
+}
+.home .services .card {
+  text-align: right;
+  background: #343b43;
+  border: 0px solid;
+}
+.home .services .card .card-title {
+  color: #1ed5b7;
+}
+.home .services .card .card-text {
+  font-size: 11px;
+  color: #fff;
+  padding-top: 20px;
+}
+.home .services .card .card-lnk .col-lg {
+  text-align: left;
+}
+.home .services .card .card-lnk .col-lg i {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #1ed5b7;
+  font-size: 30px;
+}
+.home .services .card .card-lnk .col-lg i:hover {
+  color: #fff;
+}
+.home .services .middle {
+  border-left: 1px dotted #999999;
+  border-right: 1px dotted #999999;
+}
+.home .sections {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+.home .sections .sections-title {
+  padding-bottom: 50px;
+}
+.home .sections .sections-title h2 {
+  color: #1ed5b7;
+  font-weight: bold;
+}
+.home .sections .sections-title span {
+  color: #343b43;
+}
+.home .sections .sections-content .col-lg-4 {
+  padding: 10px;
+}
+.home .sections .sections-content .col-lg-4 a {
+  transition: all 0.3s linear;
+}
+.home .sections .sections-content .col-lg-4 a .sections-item {
+  border: 1px solid #fff;
+  width: 100%;
+  margin: auto;
+  border-radius: 20px;
+  color: #000;
+  transition: all 0.4s linear;
+  position: relative;
+  display: flex;
+}
+.home .sections .sections-content .col-lg-4 a .sections-item .loon {
+  position: absolute;
+  border: 1px solid #fff;
+  transition: 0.5s ease;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  display: flex;
+}
+.home .sections .sections-content .col-lg-4 a .sections-item .loon h4 {
+  color: #fff;
+  width: 100%;
+}
+.home .sections .sections-content .col-lg-4 a .sections-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+.home .sections .sections-content .col-lg-4 a:hover .sections-item .loon {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid #1ed5b7;
+}
+.home .sections .sections-content .col-lg-4 a:hover .sections-item .loon hr {
+  opacity: 1;
+}
+.home .sections .sections-content .more {
+  padding-top: 30px;
+}
+.home .sections .sections-content .more button {
+  background-color: #fff;
+  padding: 10px 50px 10px 50px;
+  color: #1ed5b7;
+  border: 1px solid #1ed5b7;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+}
+.home .sections .sections-content .more button i {
+  left: 10px;
+}
+.home .sections .sections-content .more button:hover {
+  background-color: #1ed5b7;
+  color: #fff;
+}
+.home .sections .sections-content .more button:hover i {
+  color: #fff;
+}
+.home .jobs {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  background-color: #f5f5f5;
+}
+.home .jobs .jobs-title {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.home .jobs .jobs-title h2 {
+  color: #1ed5b7;
+}
+.home .jobs .jobs-title span {
+  color: #343b43;
+}
+.home .jobs .jobs-search {
+  padding-top: 30px;
+  text-align: right;
+}
+.home .jobs .jobs-search .jobs-search-title h5 {
+  background-color: #1ed5b7;
+  color: #fff;
+  border-radius: 5px 5px 0px 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0px;
+  text-indent: 10px;
+}
+.home .jobs .jobs-search .jobs-item-search .card {
+  padding: 0px;
+  border: 0px solid;
+}
+.home .jobs .jobs-search .jobs-item-search .card form {
+  margin: 0px;
+  border-bottom: 1px solid #1ed5b7;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.home .jobs .jobs-search .jobs-item-search .card form .form-check label {
+  font-size: 12px;
+  width: 100%;
+}
+.home .jobs .jobs-search .jobs-item-search .card form .form-group {
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 10px;
+}
+.home .jobs .jobs-search .jobs-item-search button {
+  background-color: white;
+  width: 100%;
+  border-radius: 0px;
+  color: #343b43;
+  border-bottom: 1px solid #ededfb;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: right;
+}
+.home .jobs .jobs-search .jobs-item-search button:focus {
+  box-shadow: none;
+}
+.home .jobs .jobs-search .jobs-item-search button:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+.home .jobs .jobs-content .jobs-item-content {
+  text-align: right;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  transition: all 0.2s linear;
+  border: 1px solid #ededfb;
+  padding: 10px;
+}
+.home .jobs .jobs-content .jobs-item-content img {
+  width: 20%;
+  border-radius: 10px;
+}
+.home .jobs .jobs-content .jobs-item-content h5 {
+  font-size: 15px;
+  color: #343b43;
+  font-weight: bold;
+}
+.home .jobs .jobs-content .jobs-item-content hr {
+  background-color: #ededfb;
+}
+.home .jobs .jobs-content .jobs-item-content span {
+  font-size: 12px;
+  color: #999;
+}
+.home .jobs .jobs-content .jobs-item-content span i {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #1ed5b7;
+}
+.home .jobs .jobs-content .jobs-item-content .spn-top {
+  color: #999;
+  font-size: 9px;
+}
+.home .jobs .jobs-content .jobs-item-content button {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 5px;
+  color: #999;
+  border: 1px solid #1ed5b7;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.home .jobs .jobs-content .jobs-item-content button i {
+  padding-right: 5px;
+  padding-left: 5px;
+  color: #1ed5b7;
+}
+.home .jobs .jobs-content .jobs-item-content button:hover {
+  background-color: #1ed5b7;
+  color: #fff;
+}
+.home .jobs .jobs-content .jobs-item-content button:hover i {
+  color: #fff;
+}
+.home .jobs .jobs-content .jobs-item-content:hover {
+  border-color: #1ed5b7;
+}
+.home footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #343b43;
+  color: #1ed5b7;
+}
+.home footer .foot-item {
+  text-align: center;
+}
+.home footer .brand .footer-brand h3 {
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 40px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.home footer a {
+  color: #fff;
+}
+.home footer a:hover {
+  color: #1ed5b7;
+}
+.home footer .social i {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.home footer .social i:hover {
+  color: #1ed5b7;
+}
+.home footer .btn {
+  background-color: rgba(30, 213, 183, 0.5);
+  color: #fff;
+  border-radius: 10px 0px 0px 10px;
+  font-size: 12px;
+}
+.home footer .btn:hover {
+  background-color: #1ed5b7;
+}
+.home footer input {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 0px solid;
+  border-radius: 0px 10px 10px 0px;
+  text-indent: 10px;
+  font-size: 14px;
+}
+@media (max-width: 575.98px) {
+  .home .header-home .search {
+    width: 84%;
+    transform: translate(-45px, -432px);
+  }
+  .home .header-home .search .form-row .col-lg {
+    padding-top: 10px;
+  }
+  .home .services .middle {
+    border: 0px solid;
+  }
+  .home .services .card {
+    text-align: center;
+  }
+  .home .services .card .card-body .card-text {
+    padding-bottom: 20px;
+  }
+  .home .services .card .card-body img {
+    width: 50%;
+    margin: auto;
+  }
+  .home .services .card .card-body .card-lnk .col-lg {
+    text-align: center;
+    margin: auto;
+  }
+  .home .sections .sections-content .col-lg-4 {
+    width: 50%;
+  }
+  .home .jobs-search {
+    padding-bottom: 20px;
+  }
+  .home footer .col-lg-3 {
+    width: 50%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .home .header-home .search {
+    width: 84%;
+    transform: translate(-45px, -432px);
+  }
+  .home .header-home .search .form-row .col-lg {
+    padding-top: 10px;
+  }
+  .home .sections .sections-content .col-lg-4 {
+    width: 50%;
+  }
+  .home .services .middle {
+    border: 0px solid;
+  }
+  .home .services .card {
+    text-align: center;
+  }
+  .home .services .card .card-body .card-text {
+    padding-bottom: 20px;
+  }
+  .home .services .card .card-body img {
+    width: 50%;
+    margin: auto;
+  }
+  .home .services .card .card-body .card-lnk .col-lg {
+    text-align: center;
+    margin: auto;
+  }
+  .home .jobs-search {
+    padding-bottom: 20px;
+  }
+  .home footer .col-lg-3 {
+    width: 50%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .home .header-home .search {
+    width: 84%;
+    transform: translate(-45px, -432px);
+  }
+  .home .header-home .search .form-row .col-lg {
+    padding-top: 10px;
+  }
+  .home .sections .sections-content .col-lg-4 {
+    width: 50%;
+  }
+  .home .services .middle {
+    border: 0px solid;
+  }
+  .home .services .card {
+    text-align: center;
+  }
+  .home .services .card .card-body .card-text {
+    padding-bottom: 20px;
+  }
+  .home .services .card .card-body img {
+    width: 50%;
+    margin: auto;
+  }
+  .home .services .card .card-body .card-lnk .col-lg {
+    text-align: center;
+    margin: auto;
+  }
+  .home .jobs-search {
+    padding-bottom: 20px;
+  }
+  .home footer .col-lg-3 {
+    width: 50%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .home .header-home .search {
+    width: 90%;
+    transform: translate(-45px, -432px);
+  }
+  .home .header-home .search .form-row .col-lg {
+    padding-top: 10px;
+  }
+  .home .sections .sections-content .col-lg-4 {
+    width: 50%;
+  }
+  .home .services .card .card-body .card-text {
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+  .home .services .card .card-body .card-lnk i {
+    font-size: 20px;
+  }
+  .home .jobs-search {
+    padding-bottom: 20px;
+  }
+  .home footer .col-lg-3 {
+    width: 50%;
+  }
+}
+
+/*# sourceMappingURL=home.css.map */

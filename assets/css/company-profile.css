@@ -1,0 +1,432 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: "Cairo", sans-serif;
+}
+body li,
+body ul {
+  list-style: none;
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+}
+body a {
+  text-decoration: none;
+  padding: 0px;
+}
+body a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.company-profile {
+  /*-------------------------nav-bar-end------------------------------*/
+  /*-------------------------footer-start------------------------------*/
+  /*-------------------------footer-end------------------------------*/
+}
+.company-profile #navbar {
+  padding: 20px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  transition: 0.4s;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+}
+.company-profile #navbar .navbar button {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.company-profile #navbar .navbar .navbar-brand {
+  color: #1ed5b7;
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 40px;
+}
+.company-profile #navbar .navbar button:hover {
+  background-color: #1ed5b7;
+}
+.company-profile #navbar .navbar button:active {
+  background-color: #1ed5b7;
+}
+.company-profile #navbar .navbar button:focus {
+  outline: 0px;
+}
+.company-profile #navbar .navbar .navbar-nav {
+  margin: auto;
+}
+.company-profile #navbar .navbar .navbar-nav .nav-item .act {
+  border-bottom: 1px solid;
+}
+.company-profile #navbar .navbar .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  padding-right: 20px;
+  padding-left: 20px;
+  transition: all 0.3s linear;
+}
+.company-profile #navbar .navbar .navbar-nav .nav-item .nav-link:hover {
+  background-color: #1ed5b7;
+  color: #fff;
+}
+.company-profile .company-profile-header {
+  background: #343b43;
+  padding-top: 200px;
+  padding-bottom: 15px;
+}
+.company-profile .company-profile-header .row {
+  border: 1px dotted #999;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.company-profile .company-profile-header .row .header-content img {
+  width: 100%;
+  border-radius: 10px;
+}
+.company-profile .company-profile-header .row .header-content .btn {
+  padding: 10px 50px 10px 50px;
+  background: #20c997;
+  margin-top: 80px;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: #fff;
+}
+.company-profile .company-profile-header .row .header-content .btn:hover {
+  color: #20c997;
+  background-color: #fff;
+}
+.company-profile .company-profile-header .row .header-content h3 {
+  font-weight: bold;
+  color: #fff;
+}
+.company-profile .company-profile-header .row .header-content span {
+  color: #999;
+  font-size: 12px;
+  display: inline;
+}
+.company-profile .company-profile-header .row .header-content .social a i {
+  font-size: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+}
+.company-profile .company-profile-header .row .header-content .social .one {
+  color: #3e5c9a;
+}
+.company-profile .company-profile-header .row .header-content .social .two {
+  color: #29a9e1;
+}
+.company-profile .company-profile-header .row .header-content .social .three {
+  color: #57f676;
+}
+.company-profile .company-profile-header .row .mid {
+  text-align: right;
+  padding-top: 30px;
+}
+.company-profile .company-profile-header .row .mid hr {
+  background-color: #999;
+}
+.company-profile .company-profile-contnet {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  /*-------------------------jobs-start------------------------------*/
+  /*-------------------------jobs-end------------------------------*/
+  /*------------------------add-job-start-----------------------------*/
+  /*------------------------add-job-end-----------------------------*/
+  /*-----------------------Applicants-start-------------------------*/
+  /*-----------------------Applicants-end-------------------------*/
+}
+.company-profile .company-profile-contnet .nav-tabs {
+  display: inline-flex;
+  transition: all 0.3s linear;
+}
+.company-profile .company-profile-contnet .nav-tabs a {
+  padding-left: 100px;
+  padding-right: 100px;
+  color: #343b43;
+}
+.company-profile .company-profile-contnet .nav-tabs .active {
+  color: #20c997;
+}
+.company-profile .company-profile-contnet .jobs {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+.company-profile .company-profile-contnet .jobs .jobs-title {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.company-profile .company-profile-contnet .jobs .jobs-title h2 {
+  color: #1ed5b7;
+}
+.company-profile .company-profile-contnet .jobs .jobs-title span {
+  color: #343b43;
+}
+.company-profile .company-profile-contnet .jobs .jobs-content .jobs-item-content {
+  text-align: right;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  transition: all 0.2s linear;
+  border: 1px solid #ededfb;
+  padding: 10px;
+}
+.company-profile .company-profile-contnet .jobs .jobs-content .jobs-item-content img {
+  width: 20%;
+  border-radius: 10px;
+}
+.company-profile .company-profile-contnet .jobs .jobs-content .jobs-item-content h5 {
+  font-size: 15px;
+  color: #343b43;
+  font-weight: bold;
+}
+.company-profile .company-profile-contnet .jobs .jobs-content .jobs-item-content hr {
+  background-color: #ededfb;
+}
+.company-profile .company-profile-contnet .jobs .jobs-content .jobs-item-content span {
+  font-size: 12px;
+  color: #999;
+}
+.company-profile .company-profile-contnet .jobs .jobs-content .jobs-item-content span i {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #1ed5b7;
+}
+.company-profile .company-profile-contnet .jobs .jobs-content .jobs-item-content .spn-top {
+  color: #999;
+  font-size: 9px;
+}
+.company-profile .company-profile-contnet .jobs .jobs-content .jobs-item-content button {
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-left: 10%;
+  padding-right: 10%;
+  border: 1px solid #ededfb;
+  border-radius: 5px;
+  font-size: 12px;
+  background-color: #ededfb;
+}
+.company-profile .company-profile-contnet .jobs .jobs-content .jobs-item-content button i {
+  padding-right: 5px;
+  padding-left: 5px;
+  color: #1ed5b7;
+}
+.company-profile .company-profile-contnet .jobs .jobs-content .jobs-item-content button:hover {
+  background-color: #1ed5b7;
+  color: #fff;
+}
+.company-profile .company-profile-contnet .jobs .jobs-content .jobs-item-content button:hover i {
+  color: #fff;
+}
+.company-profile .company-profile-contnet .jobs .jobs-content .jobs-item-content .delete {
+  background-color: #cc4545;
+  color: #fff;
+}
+.company-profile .company-profile-contnet .jobs .jobs-content .jobs-item-content .delete i {
+  color: #fff;
+}
+.company-profile .company-profile-contnet .jobs .jobs-content .jobs-item-content:hover {
+  border-color: #1ed5b7;
+}
+.company-profile .company-profile-contnet .add-job {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: right;
+}
+.company-profile .company-profile-contnet .add-job .btn {
+  background-color: #1ed5b7;
+  color: #fff;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.company-profile .company-profile-contnet .add-job .form-row {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.company-profile .company-profile-contnet .add-job .form-row .form-group .form-control {
+  padding: 0px;
+  text-indent: 5px;
+}
+.company-profile .company-profile-contnet .Applicants {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.company-profile .company-profile-contnet .Applicants .card {
+  text-align: right;
+}
+.company-profile .company-profile-contnet .Applicants .card h5 {
+  color: #1ed5b7;
+}
+.company-profile .company-profile-contnet .Applicants .card p {
+  color: #343b43;
+}
+.company-profile .company-profile-contnet .Applicants .card:hover {
+  border-color: #1ed5b7;
+}
+.company-profile .company-profile-contnet .btn-exit {
+  background-color: #cc4545;
+  color: #fff;
+  padding: 10px 20px 10px 20px;
+  border: 0px solid;
+  border-radius: 5px;
+}
+.company-profile .company-profile-contnet .btn-exit i {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.company-profile footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #343b43;
+  color: #1ed5b7;
+}
+.company-profile footer .foot-item {
+  text-align: center;
+}
+.company-profile footer .brand .footer-brand h3 {
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 40px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.company-profile footer a {
+  color: #fff;
+}
+.company-profile footer a:hover {
+  color: #1ed5b7;
+}
+.company-profile footer .social i {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.company-profile footer .social i:hover {
+  color: #1ed5b7;
+}
+.company-profile footer .btn {
+  background-color: rgba(30, 213, 183, 0.5);
+  color: #fff;
+  border-radius: 10px 0px 0px 10px;
+  font-size: 12px;
+}
+.company-profile footer .btn:hover {
+  background-color: #1ed5b7;
+}
+.company-profile footer input {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 0px solid;
+  border-radius: 0px 10px 10px 0px;
+  text-indent: 10px;
+  font-size: 14px;
+}
+@media (max-width: 575.98px) {
+  .company-profile .company-profile-header .row {
+    border: 0px solid;
+  }
+  .company-profile .company-profile-header .row .col-lg-2,
+.company-profile .company-profile-header .row .col-lg-8 {
+    text-align: center;
+  }
+  .company-profile .company-profile-header .row .col-lg-2 img,
+.company-profile .company-profile-header .row .col-lg-8 img {
+    width: 50%;
+  }
+  .company-profile .company-profile-contnet .col-lg .nav-link {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .company-profile .tab-pane .col-lg .col-lg-6 .jobs-item-content button {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .company-profile footer .col-lg-3 {
+    width: 50%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .company-profile .company-profile-header .row {
+    border: 0px solid;
+  }
+  .company-profile .company-profile-header .row .col-lg-2,
+.company-profile .company-profile-header .row .col-lg-8 {
+    text-align: center;
+  }
+  .company-profile .company-profile-header .row .col-lg-2 img,
+.company-profile .company-profile-header .row .col-lg-8 img {
+    width: 50%;
+  }
+  .company-profile .company-profile-contnet .col-lg .nav-link {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .company-profile .tab-pane .col-lg .col-lg-6 .jobs-item-content button {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .company-profile footer .col-lg-3 {
+    width: 50%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .company-profile .company-profile-header .row {
+    border: 0px solid;
+  }
+  .company-profile .company-profile-header .row .col-lg-2,
+.company-profile .company-profile-header .row .col-lg-8 {
+    text-align: center;
+  }
+  .company-profile .company-profile-header .row .col-lg-2 img,
+.company-profile .company-profile-header .row .col-lg-8 img {
+    width: 50%;
+  }
+  .company-profile .company-profile-contnet .col-lg .nav-link {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .company-profile .tab-pane .col-lg .col-lg-6 .jobs-item-content button {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .company-profile footer .col-lg-3 {
+    width: 50%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .company-profile .tab-pane .col-lg .col-lg-6 .jobs-item-content button {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .company-profile .company-profile-contnet .col-lg .nav-link {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .company-profile .Applicants .col-lg-6 .card .card-img {
+    height: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .company-profile .card .card-img {
+    height: 100%;
+  }
+}
+
+/*# sourceMappingURL=company-profile.css.map */
